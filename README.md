@@ -11,6 +11,19 @@ This repository provides a clean, reproducible walkthrough of **reading, validat
 
 > **Use case**: imagined-speech EEG → trial-wise matrices with orthonormal columns.
 ---
+Mapping "2020 Internatinal BCI competition" dataset to Stiefel manifold.
+## 📂 Dataset
+
+The experiments in this repository are based on the **Imagined Speech EEG dataset** available on OSF:
+
+🔗 [Download from OSF (pq7vb)](https://osf.io/pq7vb/)
+
+- Number of subjects: 15  
+- Channels: 64 EEG electrodes (subset of channels also used in experiments)  
+- Trials: 300 trials per subject, 5 classes (Hello, Help me, Stop, Thank you, Yes)  
+- Sampling rate: 512 Hz  
+- Format: `.mat` files (preprocessed EEG trials)
+
 
 
 
